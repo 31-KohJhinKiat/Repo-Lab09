@@ -1,23 +1,15 @@
 {
-    "name": "NewAssembly",
-    "references": [
-        "UnityEngine.TestRunner",
-        "UnityEditor.TestRunner",
-        "NewAssembly"
-    ],
+    "name": "Scripts",
+    "references": [],
     "includePlatforms": [
         "Editor"
     ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": true,
-    "precompiledReferences": [
-        "nunit.framework.dll"
-    ],
+    "precompiledReferences": [],
     "autoReferenced": false,
-    "defineConstraints": [
-        "UNITY_INCLUDE_TESTS"
-    ],
+    "defineConstraints": [],
     "versionDefines": [],
     "noEngineReferences": false
 }

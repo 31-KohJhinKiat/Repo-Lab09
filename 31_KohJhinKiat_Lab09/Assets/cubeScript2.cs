@@ -2,10 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CubeScript : MonoBehaviour
+public class cubeScript2 : MonoBehaviour
 {
-    public int health;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -17,13 +15,4 @@ public class CubeScript : MonoBehaviour
     {
         
     }
-
-    public void DisableOnDeath()
-    {
-        if (health <= 0)
-        {
-
-        }
-    }
-
 }
