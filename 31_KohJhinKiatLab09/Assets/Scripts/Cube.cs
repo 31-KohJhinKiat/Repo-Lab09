@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class cubeScript2 : MonoBehaviour
+public class Cube : MonoBehaviour
 {
+    public float health;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,4 +17,13 @@ public class cubeScript2 : MonoBehaviour
     {
         
     }
+
+    public void DisableOnDeath()
+    {
+        if (health <= 0)
+        {
+            gameObject.SetActive(false);
+        }
+    }
+
 }

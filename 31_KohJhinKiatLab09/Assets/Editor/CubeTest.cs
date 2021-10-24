@@ -6,8 +6,9 @@ using UnityEngine.TestTools;
 
 namespace Tests
 {
-    public class CubeTests
+    public class CubeTest
     {
+       
         [Test]
         [TestCase(0)]
         [TestCase(-28)]
@@ -23,7 +24,7 @@ namespace Tests
         [TestCase(0.6f)]
         [TestCase(100)]
         [TestCase(999)]
-        public void DisableOnDeath_HasHP_ObjectRemainsActive(float hp)
+        public void DisableOnDeath_HasHP_ObjectSetActive(float hp)
         {
             GameObject testObject = MakeFakeCube(hp);
 
@@ -39,6 +40,6 @@ namespace Tests
             cubeScript.DisableOnDeath();
             return testObject;
         }
-
+       
     }
 }
